@@ -1,0 +1,62 @@
+
+.main_div{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.nav_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+.nav_bar_item_select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 80%;
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+    margin-left: 2px;
+}
+.nav_bar_item_select span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+.logo_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_bar_item_unselect{
+    width: 25%;
+    height: 80%;
+}
+.nav_bar_item_unselect span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(50, 50, 50);
+}
+.select_item{
+    display: none;
+}
+.title_item{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select_game{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
